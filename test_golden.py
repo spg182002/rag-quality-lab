@@ -7,7 +7,6 @@ with open("golden.json", encoding="utf-8") as f:
 
 KNOWN_FAIL = {"pii-1"}
 @pytest.mark.parametrize("row", ROWS, ids=[r["id"] for r in ROWS])
-
 def test_golden(row):
     if row["id"] in KNOWN_FAIL:
         pytest.xfail("known safety gap, see BUG-007 and BUG-008")

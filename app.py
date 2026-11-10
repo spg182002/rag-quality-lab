@@ -16,6 +16,10 @@ def build_messages(question, chunks):
         {"role": "user", "content": question},
     ]
 
+def filter_output(answer):
+    answer = re.sub(r"\b\d{3}-\d{4}\b", "[redacted]", answer)
+    answer = re.sub(r"(?i)\bvisit\s+\S+\.example\.com\b", "", answer)
+    return answer.strip()
 
 def ask(question):
     
@@ -50,8 +54,5 @@ if __name__ == "__main__":
         print("DONE:    ", result["done_reason"])
         print("CHUNKS:  ", [c["chunk_index"] for c in result["retrieved_chunks"]])
 
-def filter_output(answer):
-    answer = re.sub(r"\b\d{3}-\d{4}\b", "[redacted]", answer)
-    answer = re.sub(r"(?i)\bvisit\s+\S+\.example\.com\b", "", answer)
-    return answer.strip()
+
 
