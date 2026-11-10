@@ -1,5 +1,5 @@
 
-# RAG Test App: a test subject for GenAI testing
+# rag-quality-lab: a test subject for GenAI testing
 
 A small RAG chatbot over made-up HR policy documents, running fully local (Ollama, Chroma). It exists to be **tested and broken on purpose**. About 20% of the effort went into building it, 80% into testing it.
 
