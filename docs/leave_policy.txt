@@ -1,0 +1,9 @@
+Leave Policy (Acme Corp)
+
+Sick leave: Every full-time employee gets 15 sick days per year. Unused sick days do not carry over to the next year.
+
+Notice period: An employee who resigns must give 30 days written notice to their manager and to HR.
+
+Remote work: Employees may work remotely 2 days a week, with manager approval. Core hours are 10:00 to 16:00.
+
+Annual leave: Full-time employees get 20 days of annual leave per year. Leave requests need 5 working days of advance notice.

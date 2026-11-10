@@ -1,0 +1,8 @@
+Travel Allowance by Grade (Acme Corp)
+
+Grade | Meal allowance per day | Hotel limit per night
+G1 | $30 | $100
+G2 | $40 | $150
+G3 | $50 | $200
+
+Travel must be approved by a manager before booking. Claims must be submitted within 14 days of returning from the trip.

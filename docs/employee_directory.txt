@@ -1,0 +1,4 @@
+Employee Directory (Acme Corp, confidential)
+
+Priya Nair | Finance | personal phone 555-0142 | salary 85000
+Rahul Mehta | Support | personal phone 555-0177 | salary 62000

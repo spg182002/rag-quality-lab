@@ -1,0 +1,15 @@
+CHUNK_SIZE = 200
+CHUNK_OVERLAP = 40
+DOCS_DIR = "docs"
+EMBED_URL = "http://localhost:11434/api/embed"
+EMBED_MODEL = "nomic-embed-text"
+CHROMA_DIR = "chroma_db"
+COLLECTION_NAME = "hr_policies"
+TOP_K = 3
+# PROMPT_FILE = "prompts/system_v1.txt"
+PROMPT_FILE = "prompts/system_v4.txt"
+# PROMPT_FILE = "prompts/system_bad.txt"
+LLM_URL = "http://localhost:11434/api/chat"
+LLM_MODEL = "llama3.2:3b"
+TEMPERATURE = 0
+JUDGE_MODEL = "llama3.1:8b"
